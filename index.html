@@ -1,286 +1,740 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Exemplo de portfólio</title>
- 
-  <link rel="stylesheet" href="src/css/font-awesome.css" />
-  <link rel="stylesheet" href="src/css/reset.css" />
-   
-  <!-- Global -->
-  <link rel="stylesheet" href="src/css/globais.css" />
-  <link rel="stylesheet" href="src/css/variaveis.css" />
-  <link rel="stylesheet" href="src/css/secoes/header.css" />
-  <link rel="stylesheet" href="src/css/secoes/home.css" />
-  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
-  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
-  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
-  <link rel="stylesheet" href="src/css/secoes/footer.css" />
-  <link rel="stylesheet" href="src/css/secoes/feedbacks.css">
-
- 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-</head>
-
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="row justify-content-between alinhar-itens-no-centro">
-        <a href="#">
-          <h1 class="logo">JG</h1>
-        </a>
-        <nav>
-          <input id="menu-hamburguer" type="checkbox" />
-
-          <label for="menu-hamburguer">
-            <div class="menu">
-              <span class="hamburguer"></span>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Rebecca Lantner</title>
+        <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png">
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#page-top">Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    </ul>
+                </div>
             </div>
-          </label>
-
-          <div class="button">
-          <div class="ball">
-          </div>
-          </div>
-
-          <ul>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Meus projetos</a></li>
-          </ul>
         </nav>
-      </div>
-    </div>
-  </header>
-
-  <section class="home">
-    <div class="container">
-      <div class="row full-screen alinhar-itens-no-centro">
-        <div class="texto-home">
-          <p>Olá👋🏻! Seja bem vindo(a) a esta página!</p>
-          <h1>Sou Jaqueline Gotardi</h1>
-          <h2>Estudante de ADS e Desenvolvimento Full Stack</h2>
-
-          <div class="redes-sociais">
-            <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-
-        <div class="img-home">
-          <div class="img-box inner-shadow">
-            <img class="outer-shadow" src="src/imagens/foto1.jpg" alt="minha foto de perfil" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section class="sobre-mim section" id="sobre-mim">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Sobre mim</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="imagem-sobre-mim">
-          <div class="img-box inner-shadow">
-            <img src="src/imagens/foto2.jpg" alt="foto sobre mim" class="outer-shadow" />
-          </div>
-        </div>
-        <div class="informacoes-sobre-mim reveal">
-          <p>
-            <strong>Me chamo Jaqueline, estudante de ADS e Desenvolvimento Full Stack.</strong>
-              Sou natural do interior do Amazonas(AM). Sou extremamente apaixonada pela área de Tecnologia. Para mim, programar vai além de escrever códigos, é dar vida a idéias e soluções, algo que me fascina profundamente🥰! Como toda desenvolvedora em formação, encaro cada desafio como uma oportunidade de aprendizado. Posso não ter todas as respostas de imediato, mas minha perseverança me define: gosto de aprender com os erros, buscar soluções criativas e evoluir constantemente. Detesto ficar travada e estou sempre em movimento, explorando novos caminhos.
-          </p>
-
-          <p> Acredito no poder do trabalho em equipe, na troca de conhecimentos e no impacto que a colaboração pode gerar. Minha curiosidade me move, busco evoluir e aplicar o que sei da melhor forma possível, propondo criar interfaces funcionais, responsivas e agradáveis ao usuário.
-          </p>
-
-          <p>
-            Aaah, sou amante de livros, da escrita, e amante da curiosidade. Se há espaço para crescer, colaborar e construir algo significativo, é exatamente lá que quero estar!🩷 
-
-          </p>
-
-          <div class="botoes">
-            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="habilidades section" id="habilidades">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Habilidades</h2>
-        </div>
-      </div>
-
-      <div class="container-habilidades">
-        <div class="informacoes reveal">
-          <div class="logo">
-            <i class="devicon devicon-javascript-plain"></i>
-          </div>
-          <h3>JavaScript</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
-        </div>
-
-        <div class="informacoes html reveal">
-          <div class="logo">
-            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
-          </div>
-          <h3>HTML5</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
-        </div>
-
-        <div class="informacoes css reveal">
-          <div class="logo">
-            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
-          </div>
-          <h3>CSS3</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
-        </div>
-
-        <div class="informacoes github reveal">
-          <div class="logo">
-            <i class="devicon devicon-github-original" id="github"></i>
-          </div>
-          <h3>GitHub</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
-        </div>
-
-        <!-- <div class="informacoes git">
-          <div class="logo">
-            <i class="devicon devicon-git-plain" id="git"></i>
-          </div>
-          <h3>Git</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
-            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
-            dignissimos possimus!</p>
-        </div> -->
-        
-      </div>
-    </div>
-  </section>
-
-  <section class="projetos section" id="projetos">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Projetos principais</h2>
-        </div>
-      </div>
-
-      <div class="container-projetos reveal">
-        <div class="projeto">        
-          <a href="https://jaqueline-gotardi.github.io/Universe/">
-            <img src="./src/imagens/projetoUniverso.png" alt="Nome do projeto"/>
-            <h3>Projeto 1</h3>
-            <div class="informacoes-projeto">          
-              <p>Projeto básico sobre curiosidades do Universo</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>     
-          </a>
-        </div>
-
-        <div class="projeto">        
-          <a href="https://jaqueline-gotardi.github.io/mario-jump/">
-            <img src="./src/imagens/jogoMario.png" alt="Nome do projeto" />
-            <h3>Projeto 2</h3>
-            <div class="informacoes-projeto">          
-              <p>Jogo feito com Html, Css e JavaScript, simples e interativo</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>      
-          </a>          
-        </div>
-
-        <div class="projeto">     
-          <a href="https://jaqueline-gotardi.github.io/projeto-moranguinho/">
-            <img src="./src/imagens/projetoCards.png" alt="Nome do projeto" />
-            <h3>Projeto 3</h3>
-            <div class="informacoes-projeto">
-              <p>Cartas interativas que mostram a descrição de cada personagem. Foi usado Html, Css e JavaScript para a sua criação.</p>
-              <p>🔗 Ver no GitHub Pages</p>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-heading ">Rebecca Lantner</div>
+                <div class="masthead-subheading">Data Analyst &middot; Information Designer</div>
+                        <a class="btn btn-secondary btn-social mx-2 js-scroll-trigger" href="#portfolio"><i class="fas fa-arrow-circle-down"></i></a>
             </div>
-          </a>   
-        </div>
+        </header>
 
-        <div class="projeto">
-          <a href="https://jaqueline-gotardi.github.io/estacoes/">
-            <img src="./src/imagens/projetoEstacoes.png" alt="Nome do projeto" />
-            <h3>Projeto 4</h3>
-            <div class="informacoes-projeto">
-              <p>Site que mostra a descrição das estações, com um design suave e leve.</p>
-              <p>🔗 Ver no GitHub Pages</p>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">A collection of projects in data + design.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal13">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/13-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Email A/B Test Tracker</div>
+                                <div class="portfolio-caption-subheading text-muted">Business Intelligence</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal14">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/14-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Boston in the Shadows</div>
+                                <div class="portfolio-caption-subheading text-muted">Interactive Data Application</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal15">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/15-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">A/B Test Impact</div>
+                                <div class="portfolio-caption-subheading text-muted">Business Intelligence</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Learning from the Curve</div>
+                                <div class="portfolio-caption-subheading text-muted">Interactive Data Application</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Collisions in Catalonia</div>
+                                <div class="portfolio-caption-subheading text-muted">Data Visualization</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">AudioForma</div>
+                                <div class="portfolio-caption-subheading text-muted">Interactive Data Application</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Good vs. Evil</div>
+                                <div class="portfolio-caption-subheading text-muted">Data Visualization</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">NPS Dashboard</div>
+                                <div class="portfolio-caption-subheading text-muted">Business Intelligence</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Inside the Black Box</div>
+                                <div class="portfolio-caption-subheading text-muted">Business Intelligence</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/07-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">PopSci Halloween</div>
+                                <div class="portfolio-caption-subheading text-muted">Infographic &middot; Data Story</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/08-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">990 by the Numbers</div>
+                                <div class="portfolio-caption-subheading text-muted">Infographic &middot; Data Story</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/09-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">World Powers</div>
+                                <div class="portfolio-caption-subheading text-muted">Data Visualization</div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/10-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">New Exhibits at the Rose</div>
+                                <div class="portfolio-caption-subheading text-muted">Layout Design</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal11">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/11-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Commencement</div>
+                                <div class="portfolio-caption-subheading text-muted">Layout Design</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal12">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/12-thumbnail.jpg" alt="" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Festival of the Arts</div>
+                                <div class="portfolio-caption-subheading text-muted">Layout Design</div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
             </div>
-          </a>
+        </section>
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About Me</h2>
+                    <h3 class="section-subheading text-muted">I'm a data-viz nerd based in Cambridge, MA.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/keukenhof.jpg" alt="" />
+                            <h4>Hi! I'm Rebecca.</h4>
+                            <p class="text-muted">I find beauty in data.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <p class="lead mb-5"><b>On the job:</b> I'm an analytics manager at <a href="https://www.jobcase.com/about-us/"><b>Jobcase, Inc.</b></a> I write complex SQL scripts and construct multivariate tests to optimize email content recommended to our members. I build dashboards to communicate results, focusing on actionable business insights that move key metrics. <br><br> <b>On the side:</b> I'm a data artist. I delight in the layer of creativity that transforms a query into a striking, data-driven experience. From sketchbook to spreadsheet, I employ a range of tools to design and build intuitive data stories and visualizations. <br><br> <b>On the weekend:</b> When I'm not at my desk, you can find me wandering Cambridge in search of my next <a href="https://www.gypsyplacecoffee.com"><b>favorite coffee shop</b></a>, trolling Skyscanner for cheap flight tickets, or hiking my way through New Hampshire's White Mountains.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4 bg-dark">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-right text-white">Copyright © Rebecca Lantner 2025</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-secondary btn-social mx-2" href="https://www.linkedin.com/in/rebecca-lantner"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-secondary btn-social mx-2" href="mailto:rlantner@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-secondary btn-social mx-2" href="https://github.com/rlantner"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Learning from the Curve</h2>
+                                    <p class="item-intro text-muted">Data visualization web app to explore the effect of Covid-19 lockdowns on air pollution.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><a href="https://drive.google.com/file/d/1K9nX2wWnY8jTexFj3PVrMu7vEA7WD_sq/view?usp=sharing"><button class="btn btn-primary" type="button">View Screencast</button></a></li>
+                                        <li><br><b>Tools:</b> pencil + paper, Microsoft Excel, Tableau, Adobe Illustrator, HTML, CSS, Javascript, d3.js</li>
+                                        <li><br>Collaboration with Grace Park and Douglas Sanchez for Harvard Extension School course: The Art and Design of Information</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  
-        <h2 class="titulo-feedback">Feedbacks</h2>
-  <div class="carrossel-feedbacks">
-    <button class="seta esquerda">&#10094;</button>
-
-    <div class="feedback-container">
-      <div class="feedback active">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, quod quia eveniet amet nemo praesentium quidem reiciendis repudiandae minus veritatis</p>
-      <h4>pessoa 1 </h4>
-    </div>
-    <div class="feedback">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusantium at voluptatibus, explicabo fugit temporibus, aperiam voluptatem mollitia praesentium optio quia rem possimus</p>
-      <h4>pessoa 2</h4>
-    </div>
-    <div class="feedback">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repellendus quidem assumenda alias eaque error laboriosam voluptatem molestias nisi maxime! Odio eum, exercitatione</p>
-      <h4>pessoa 3</h4> 
-    </div>
-  </div>
-  <button class="seta direita">&#10095;</button>
-    </div>
-  </section>
-
-
-
-
-  <footer class="footer">
-    <div class="container">
-      <h2>Me envie uma mensagem!
-        <p></p>(97)984266917</h2>
-      <div class="redes-sociais">
-        <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-        <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
-        <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-  </footer>
-
-  <footer>
-    <p class="text-footer"><strong>Copyright © </strong>| Projeto de portfólio web criado por Jaqueline Gotardi
-    </p>
-</footer>
-  <script src="js/main.js"></script>
-
-</body>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Collisions in Catalonia</h2>
+                                    <p class="item-intro text-muted">A custom viz depicting Barcelona traffic data.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><b>Tools:</b> pencil + paper, Microsoft Excel, Tableau, Adobe Illustrator</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">AudioForma</h2>
+                                    <p class="item-intro text-muted">A music visualization web app that integrates with Spotify API to transform users' audio libraries into visual song "fingerprints."</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/03-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><a href="https://youtu.be/-AG25gbI51c"><button class="btn btn-primary" type="button">View Screencast</button></a></li>
+                                        <li><b><br>Tools:</b> pencil + paper, HTML, CSS, Javascript, d3.js, Python</li>
+                                        <li><br>Collaboration with Ning Chen and Jasper Croome for Harvard Extension School course: Building Interactive Web Applications for Data Analysis</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Good vs. Evil</h2>
+                                    <p class="item-intro text-muted">Representing DC Comics characters through data-viz.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/04-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><b>Tools:</b> Microsoft Excel, Tableau, Adobe Illustrator</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">NPS Dashboard</h2>
+                                    <p class="item-intro text-muted">Tableau dashboard to monitor Net Promoter Score (NPS) email metrics and A/B test performance. (Actual data masked for privacy.)</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/05-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><b>Tools:</b> SQL, Tableau</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Inside the Black Box</h2>
+                                    <p class="item-intro text-muted">Tableau storyboard to conclude a multi-phase data science consulting project. Built machine learning models to predict customer churn and generate product recommendations, then developed interactive visualizations to make "black box" models interpretable to stakeholders.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><b>Tools:</b> Tableau</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 7-->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">PopSci Halloween</h2>
+                                    <p class="item-intro text-muted">An infographic story published in Popular Science magazine.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/07-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><b>Tools:</b> Microsoft Excel, Adobe InDesign</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 8-->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">990 by the Numbers</h2>
+                                    <p class="item-intro text-muted">Front-page infographic for the Justice, Brandeis University's independent student newspaper.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/08-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><b>Tools:</b> Microsoft Excel, Adobe InDesign</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 9-->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">World Powers</h2>
+                                    <p class="item-intro text-muted">Visualization of World Bank global electricity production data.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/09-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><b>Tools:</b> pencil + paper, Microsoft Excel, Adobe InDesign</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 10-->
+        <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">New Exhibits at the Rose</h2>
+                                    <p class="item-intro text-muted">A centerfold designed for the Justice Arts section.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/10-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><b>Tools:</b> Adobe InDesign</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 11-->
+        <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Commencement</h2>
+                                    <p class="item-intro text-muted">A two-page spread designed for the Justice commencement issue.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/11-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><b>Tools:</b> Adobe InDesign</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 12-->
+        <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Festival of the Arts</h2>
+                                    <p class="item-intro text-muted">A centerfold designed for the Justice Arts section.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/12-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><b>Tools:</b> Adobe InDesign, Adobe Photoshop</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 13-->
+        <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Email A/B Test Tracker</h2>
+                                    <p class="item-intro text-muted">Tableau dashboard to monitor engagement over time of four related email content tests vs. small holdout group. (Actual data masked for privacy.)</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/13-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><b>Tools:</b> SQL, Tableau</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 14-->
+        <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Boston in the Shadows</h2>
+                                    <p class="item-intro text-muted">Data visualization web app illuminating the impact of streetlights on city crime.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/14-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><a href="https://rlantner.github.io/cs171"><button class="btn btn-primary" type="button">Explore Project</button></a></li>
+                                        <li><br><b>Tools:</b> pencil + paper, Microsoft Excel, Tableau, Adobe Illustrator, HTML, CSS, Javascript, d3.js</li>
+                                        <li><br>Collaboration with Julia Kennish, Annah Mercer, and Emma Starr for Harvard Extension School course: Visualization</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 15-->
+        <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">A/B Test Impact</h2>
+                                    <p class="item-intro text-muted">Tableau dashboard to show wins & losses of email creative test vs. control variants across key engagement metrics.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/15-full.jpg" alt="" />
+                                    <p></p>
+                                    <ul class="list-inline">
+                                        <li><b>Tools:</b> SQL, Tableau</li>
+                                    </ul>
+                                    <button class="btn btn-secondary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
